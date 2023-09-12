@@ -1,34 +1,63 @@
-/* activity 1*/
-h1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 150px;
-    width: 150px;
-    border: 2px solid pink;
-    background-color: aqua;
+/* activity 1 center an image*/
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  width: 150px;
+  border: 2px solid pink;
+  background-color: aqua;
 }
-header{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
-/* activity 2 */
+/* activity 2 flex wrap*/
 img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 600px;
+  height: 300px;
+}
+article {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+/* activity 3 media query*/
+h5{
+    background-color: aqua;
+    width: 100px;
+    height: 150px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    width: 300px;
-    height: 200px;
 }
-article{
-    display: flex;
-    flex: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    margin-bottom: 10px;
+
+/* footer */
+p {
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  background-color: rgb(13, 74, 112);
+  flex-wrap: wrap;
+  color: white;
+  margin-top: 100vh;
 }
-/* activity 3 */
+
+footer {
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  height: 100vh;
+}
